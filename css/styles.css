@@ -1,0 +1,80 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto+mono");
+
+:root {
+  --black-color: #0f0f0f;
+  --blue-color: #48e5c2;
+  --yellow-color: #e8ff17;
+  --cream-color: #f3d3bd;
+  --grey-color: #f7f7f7;
+}
+
+body {
+  font-family: "Roboto mono";
+  color: var(--black-color);
+  background-color: var(--grey-color);
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 10em;
+}
+
+.nav-border{
+    border-top: .25em solid var(--black-color);
+    border-bottom: .25em solid var(--black-color);
+}
+
+.r-border{
+    border-right: .25em solid var(--black-color);
+}
+
+.b-border{
+    border-bottom: .25em solid var(--black-color);
+}
+
+.compact{
+    margin-left: 1em;
+    justify-content: left;
+}
+
+.navbar-brand{
+    margin-right: 2em;
+}
+
+.nav-underline{
+    transition: 200ms;
+    color: var(--black-color);
+    padding: 0 .2em;
+    border-bottom: .1em solid var(--grey-color);
+}
+
+.nav-underline:hover{
+    border-bottom: .1em solid var(--black-color);
+}
+
+.blue-cont{
+    background-color: var(--blue-color);
+    color: var(--black-color);
+}
+
+.cream-cont{
+    background-color: var(--cream-color);
+    color: var(--black-color);
+}
+
+.yellow-cont{
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+}
+
+.cont-h{
+    height: 500px;
+}
+
+.cont-half{
+    height: 250px;
+}
+
+.padd{
+    padding: 2em;
+}
