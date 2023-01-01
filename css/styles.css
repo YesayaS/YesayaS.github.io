@@ -8,6 +8,16 @@
   --grey-color: #f7f7f7;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #f7f7f7;
+  background: #0f0f0f;
+}
+
+::selection {
+  color: #f7f7f7;
+  background: #0f0f0f;
+}
+
 body {
   font-family: "Roboto mono";
   color: var(--black-color);
